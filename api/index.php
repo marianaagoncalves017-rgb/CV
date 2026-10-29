@@ -181,7 +181,7 @@
             <h2>Contactos</h2>
             <div class="contact-item">📍 Ponte de Vagos, Vagos</div>
             <div class="contact-item">📞 915994389</div>
-            <div class="contact-item">✉️ marianagoncalves.164046@etpc.pt</div>
+            <div class="contact-item">✉️ marianaagoncalves017@gmail.com</div>
         </div>
 
         <div class="section-box">
