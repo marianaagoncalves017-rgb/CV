@@ -76,7 +76,7 @@
             border-radius: 50%;
             border: 4px solid #ffffff;
             box-shadow: 0 4px 12px rgba(136, 14, 79, 0.15);
-            /* Ajuste de cor para harmonizar com o tom rosa */
+            /* Filtro de tonalidade ajustado para a paleta rosa */
             filter: sepia(20%) hue-rotate(310deg) saturate(120%) brightness(105%);
         }
 
@@ -177,7 +177,7 @@
             margin-bottom: 5px;
         }
 
-        /* Responsividade para telemóveis */
+        /* Responsividade para ecraãs pequenos */
         @media (max-width: 650px) {
             .cv-container {
                 grid-template-columns: 1fr;
@@ -194,9 +194,9 @@
 <div class="cv-container">
     <!-- Coluna Esquerda -->
     <div class="sidebar">
-        <!-- Foto de Perfil com imagem do GitHub Raw -->
+        <!-- Foto de Perfil -->
         <div class="profile-pic-container">
-            <img src="https://raw.githubusercontent.com/marianaagoncalves017-rgb/CV/main/foto.jpg" alt="Mariana Gonçalves" class="profile-pic">
+            <img src="/foto.jpg" alt="Mariana Gonçalves" class="profile-pic">
         </div>
 
         <div class="section-box">
