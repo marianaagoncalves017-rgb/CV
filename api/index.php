@@ -63,7 +63,7 @@
             margin: 10px 0 10px 10px;
         }
 
-        /* Foto de Perfil Arredondada */
+        /* Foto de Perfil com Filtro Sakura */
         .profile-pic-container {
             text-align: center;
             margin-bottom: 5px;
@@ -76,6 +76,8 @@
             border-radius: 50%;
             border: 4px solid #ffffff;
             box-shadow: 0 4px 12px rgba(136, 14, 79, 0.15);
+            /* Ajuste de cor para harmonizar com o tom rosa */
+            filter: sepia(20%) hue-rotate(310deg) saturate(120%) brightness(105%);
         }
 
         .sidebar h2 {
@@ -192,9 +194,9 @@
 <div class="cv-container">
     <!-- Coluna Esquerda -->
     <div class="sidebar">
-        <!-- Foto de Perfil -->
+        <!-- Foto de Perfil com imagem do GitHub Raw -->
         <div class="profile-pic-container">
-            <img src="../foto.jpg" alt="Mariana Gonçalves" class="profile-pic">
+            <img src="https://raw.githubusercontent.com/marianaagoncalves017-rgb/CV/main/foto.jpg" alt="Mariana Gonçalves" class="profile-pic">
         </div>
 
         <div class="section-box">
