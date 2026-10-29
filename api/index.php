@@ -32,7 +32,7 @@
             position: relative;
         }
 
-        /* Detalhes de flores de Sakura (cantos decorativos) */
+        /* Detalhes de flores de Sakura */
         .cv-container::before {
             content: "🌸";
             position: absolute;
@@ -57,18 +57,33 @@
             padding: 30px 20px;
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: 20px;
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
             margin: 10px 0 10px 10px;
         }
 
+        /* Foto de Perfil Arredondada */
+        .profile-pic-container {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .profile-pic {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #ffffff;
+            box-shadow: 0 4px 12px rgba(136, 14, 79, 0.15);
+        }
+
         .sidebar h2 {
-            font-size: 15px;
+            font-size: 14px;
             text-transform: uppercase;
             letter-spacing: 1.5px;
             color: #880e4f;
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             text-align: center;
             border-bottom: 2px dashed #f48fb1;
             padding-bottom: 5px;
@@ -81,8 +96,8 @@
         }
 
         .contact-item {
-            font-size: 13px;
-            margin-bottom: 10px;
+            font-size: 12.5px;
+            margin-bottom: 8px;
             word-break: break-word;
             display: flex;
             align-items: center;
@@ -95,8 +110,8 @@
         }
 
         .sidebar ul li {
-            font-size: 13px;
-            margin-bottom: 8px;
+            font-size: 12.5px;
+            margin-bottom: 6px;
             color: #5c2c3b;
             line-height: 1.4;
         }
@@ -106,7 +121,7 @@
             padding: 35px 30px;
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: 22px;
         }
 
         .header {
@@ -115,7 +130,7 @@
         }
 
         .header h1 {
-            font-size: 32px;
+            font-size: 30px;
             color: #880e4f;
             text-transform: uppercase;
             letter-spacing: 2px;
@@ -131,11 +146,11 @@
         }
 
         .main-section h2 {
-            font-size: 16px;
+            font-size: 15px;
             text-transform: uppercase;
             letter-spacing: 1.5px;
             color: #880e4f;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             display: flex;
             align-items: center;
             gap: 8px;
@@ -143,11 +158,11 @@
 
         .main-section h2::before {
             content: "🌸";
-            font-size: 14px;
+            font-size: 13px;
         }
 
         .main-section p, .main-section ul {
-            font-size: 13.5px;
+            font-size: 13px;
             line-height: 1.6;
             color: #4a3b40;
         }
@@ -157,10 +172,10 @@
         }
 
         .main-section ul li {
-            margin-bottom: 6px;
+            margin-bottom: 5px;
         }
 
-        /* Responsividade para telemóvel */
+        /* Responsividade para telemóveis */
         @media (max-width: 650px) {
             .cv-container {
                 grid-template-columns: 1fr;
@@ -177,11 +192,16 @@
 <div class="cv-container">
     <!-- Coluna Esquerda -->
     <div class="sidebar">
+        <!-- Foto de Perfil -->
+        <div class="profile-pic-container">
+            <img src="../foto.jpg" alt="Mariana Gonçalves" class="profile-pic">
+        </div>
+
         <div class="section-box">
             <h2>Contactos</h2>
             <div class="contact-item">📍 Ponte de Vagos, Vagos</div>
             <div class="contact-item">📞 915994389</div>
-            <div class="contact-item">✉️ marianaagoncalves017@gmail.com</div>
+            <div class="contact-item">✉️ marianagoncalves.164046@etpc.pt</div>
         </div>
 
         <div class="section-box">
